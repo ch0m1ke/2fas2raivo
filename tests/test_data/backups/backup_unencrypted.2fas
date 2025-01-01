@@ -1,0 +1,32 @@
+{
+    "appOrigin": "ios",
+    "appVersionName": "5.3.9",
+    "schemaVersion": 4,
+    "appVersionCode": 50309,
+    "services": [
+        {
+            "badge": { "color": "Default" },
+            "order": { "position": 0 },
+            "name": "Test",
+            "secret": "ABCDEFGHIJKLMNOPQRSTUZXYW0123456",
+            "otp": {
+                "digits": 6,
+                "counter": 0,
+                "tokenType": "TOTP",
+                "account": "test@test.com",
+                "source": "manual",
+                "algorithm": "SHA1",
+                "period": 30
+            },
+            "updatedAt": 1735590271000,
+            "icon": {
+                "label": { "text": "TE", "backgroundColor": "Indigo" },
+                "iconCollection": {
+                    "id": "123A4567-4B2C-4AB1-B123-AB123C4DEF3F"
+                },
+                "selected": "IconCollection"
+            }
+        }
+    ],
+    "groups": []
+}
